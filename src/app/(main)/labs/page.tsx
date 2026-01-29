@@ -56,6 +56,11 @@ export default function LabsPage() {
         <h2 className="text-xl font-semibold text-afh-secondary mb-3">
           Module 3 Labs: Building Inspection and WABO Compliance
         </h2>
+        <p className="text-slate-600 text-sm mb-3">
+          <Link href="/labs/module-3" className="text-afh-primary font-medium hover:underline">
+            Open expanded Module 3 Labs (5× content, case studies, DIY steps) →
+          </Link>
+        </p>
         <ul className="space-y-2">
           {module3Labs.map((lab) => (
             <li
