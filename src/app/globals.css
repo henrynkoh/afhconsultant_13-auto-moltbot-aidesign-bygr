@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --afh-primary: #1e3a5f;
+  --afh-secondary: #2d5a87;
+  --afh-accent: #4a90a4;
+  --afh-light: #e8f4f8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+}
+
+@layer components {
+  .prose-afh h2 {
+    @apply text-afh-primary font-semibold mt-6 mb-2;
+  }
+  .prose-afh ul {
+    @apply list-disc pl-6 space-y-1;
+  }
+  .prose-afh .cite {
+    @apply text-sm text-slate-500 italic;
+  }
+}
