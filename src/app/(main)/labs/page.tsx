@@ -80,6 +80,11 @@ export default function LabsPage() {
         <h2 className="text-xl font-semibold text-afh-secondary mb-3">
           Module 4 Labs: Initial Inspection Preparation
         </h2>
+        <p className="text-slate-600 text-sm mb-3">
+          <Link href="/labs/module-4" className="text-afh-primary font-medium hover:underline">
+            Open expanded Module 4 Labs (5× content, case studies, DIY steps) →
+          </Link>
+        </p>
         <ul className="space-y-2">
           {module4Labs.map((lab) => (
             <li
